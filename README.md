@@ -136,6 +136,7 @@ Corrections with a link to the official source are the most valuable
 contribution: TradingView, broker APIs and SEBI rules change. See
 [CONTRIBUTING.md](CONTRIBUTING.md) and run `python tests/validate_repo.py`
 before opening a PR. More free Claude Code packs from Viprasol:
+[claude-market-data-skills](https://github.com/Viprasol-Tech/claude-market-data-skills) ·
 [claude-prop-firm-skills](https://github.com/Viprasol-Tech/claude-prop-firm-skills) ·
 [claude-options-trading-skills](https://github.com/Viprasol-Tech/claude-options-trading-skills) ·
 [claude-trading-skills](https://github.com/Viprasol-Tech/claude-trading-skills) ·
