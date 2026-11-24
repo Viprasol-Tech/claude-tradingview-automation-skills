@@ -1,0 +1,26 @@
+{
+  "name": "claude-tradingview-automation-skills",
+  "description": "Free Claude Code skills for automating TradingView: alert design, secure webhook receivers, signal-to-order workers, Indian brokers under SEBI's 2026 algo rules, crypto and MT5 bridges, and TradingView chart libraries.",
+  "owner": {
+    "name": "Viprasol Tech",
+    "url": "https://viprasol.com"
+  },
+  "plugins": [
+    {
+      "name": "tradingview-automation",
+      "source": "./plugins/tradingview-automation",
+      "description": "6 skills: tv-alert-design, webhook-receiver, signal-to-order, indian-broker-apis, crypto-mt5-bridges and tradingview-charts, with a tested alert linter, webhook receiver and NSE expiry/contract resolver.",
+      "category": "finance",
+      "tags": [
+        "tradingview",
+        "webhook",
+        "trading-bot",
+        "pine-script",
+        "zerodha",
+        "angel-one",
+        "metatrader5",
+        "lightweight-charts"
+      ]
+    }
+  ]
+}

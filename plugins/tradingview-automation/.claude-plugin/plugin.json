@@ -1,0 +1,35 @@
+{
+  "name": "tradingview-automation",
+  "displayName": "TradingView Automation",
+  "version": "1.0.0",
+  "description": "Claude Code skills for TradingView automation: alert() vs alertcondition() vs order-fill alerts and {{placeholders}}, webhook receivers with IP allow-list, body secret, dedupe and the 3-second timeout, target-position order workers, Zerodha/Angel One/Dhan/Upstox under SEBI's retail algo framework (static IP, 10 OPS, market protection), NSE Tuesday expiries, crypto exchange and MetaTrader 5 bridges, and Lightweight Charts v5 / Advanced Charts datafeeds.",
+  "author": {
+    "name": "Viprasol Tech",
+    "email": "support@viprasol.com",
+    "url": "https://viprasol.com"
+  },
+  "homepage": "https://github.com/Viprasol-Tech/claude-tradingview-automation-skills",
+  "repository": "https://github.com/Viprasol-Tech/claude-tradingview-automation-skills",
+  "license": "MIT",
+  "keywords": [
+    "tradingview",
+    "webhook",
+    "alerts",
+    "pine-script",
+    "trading-bot",
+    "algo-trading",
+    "zerodha",
+    "kite-connect",
+    "angel-one",
+    "smartapi",
+    "dhan",
+    "upstox",
+    "sebi",
+    "nse",
+    "metatrader5",
+    "mt5",
+    "binance",
+    "lightweight-charts",
+    "claude-code-skills"
+  ]
+}
