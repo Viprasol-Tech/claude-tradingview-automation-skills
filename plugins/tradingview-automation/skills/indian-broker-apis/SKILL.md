@@ -99,10 +99,9 @@ webhook receiver can live elsewhere.
 ## Symbols, lots and expiries
 
 ```bash
-N=${CLAUDE_SKILL_DIR}/scripts/nse_symbols.py
-python $N expiry --month 2026-12 --holidays nse_holidays_2026.txt
-python $N resolve instruments_nfo.csv --name NIFTY --type FUT --front --roll-days 2   # NSE:NIFTY1! -> future to trade
-python $N resolve instruments_nfo.csv --tv NSE:NIFTY261229C26000           # TradingView option -> broker contract
+python ${CLAUDE_SKILL_DIR}/scripts/nse_symbols.py expiry --month 2026-12 --holidays nse_holidays_2026.txt
+python ${CLAUDE_SKILL_DIR}/scripts/nse_symbols.py resolve instruments_nfo.csv --name NIFTY --type FUT --front --roll-days 2   # NSE:NIFTY1! -> future to trade
+python ${CLAUDE_SKILL_DIR}/scripts/nse_symbols.py resolve instruments_nfo.csv --tv NSE:NIFTY261229C26000           # TradingView option -> broker contract
 ```
 
 - **Expiries (from September 2025):** NSE index and stock derivatives expire

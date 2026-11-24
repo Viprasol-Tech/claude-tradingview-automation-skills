@@ -14,9 +14,8 @@ November 2026; see `reference.md` for sources.
 ## Lint every message before pasting it
 
 ```bash
-L=${CLAUDE_SKILL_DIR}/scripts/tv_alert_lint.py
-python $L --show --message '{"secret":"...","symbol":"{{exchange}}:{{ticker}}","action":"{{strategy.order.action}}","qty":{{strategy.order.contracts}},"timenow":"{{timenow}}"}'
-python $L alert.txt
+python ${CLAUDE_SKILL_DIR}/scripts/tv_alert_lint.py --show --message '{"secret":"...","symbol":"{{exchange}}:{{ticker}}","action":"{{strategy.order.action}}","qty":{{strategy.order.contracts}},"timenow":"{{timenow}}"}'
+python ${CLAUDE_SKILL_DIR}/scripts/tv_alert_lint.py alert.txt
 ```
 
 Exit code 1 means the webhook would receive something it must reject.

@@ -33,10 +33,9 @@ against the broker instead of trusting that every alert arrived.
 ## Reference receiver
 
 ```bash
-S=${CLAUDE_SKILL_DIR}/scripts/tv_webhook_server.py
-python $S --self-test
+python ${CLAUDE_SKILL_DIR}/scripts/tv_webhook_server.py --self-test
 TV_SECRET="$(python -c 'import secrets;print(secrets.token_urlsafe(24))')" \
-  python $S serve --port 8080 --queue signals.jsonl     # behind nginx/Caddy on 443
+  python ${CLAUDE_SKILL_DIR}/scripts/tv_webhook_server.py serve --port 8080 --queue signals.jsonl     # behind nginx/Caddy on 443
 ```
 
 It checks, in order: source IP (before reading the body), Content-Length,
